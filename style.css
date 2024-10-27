@@ -1,0 +1,330 @@
+*{
+    margin: none;
+    padding: none;
+}
+body{
+    background-color:  rgba(238, 245, 255, 100%);
+}
+#page1{
+    height: 100%;
+    width: 100%;
+}
+#box1{
+    margin-top: 30px;
+    height:30px;
+    width: 100%;
+}
+#box2{
+    display:inline;
+    height:20px;
+    margin-top: 20px;
+    margin-right: 350px;
+    margin-left: 50px;
+}
+#box3{
+    display: inline;
+    margin-right: 90px;
+    color: grey;
+    padding: 10px;
+    margin-left: 10px;
+    height:20px;
+    margin-bottom: 20px;
+
+}
+#box3 a:hover{
+    color: white;
+    background-color: rgb(238, 140, 11);
+    border-radius: 5px;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+#box4{
+    height: 150px;
+    width: 250px;
+   background-color: black;
+   margin-top: 100px;
+   margin-left: 900px;
+   background-image: url(drone.jpg.jpg);
+   background-size: cover;
+}
+#box5{
+    height: 225px;
+    width : 800px;
+    margin-top: 50px;
+    margin-left:250px ;
+}
+#box6{
+    background-color:white;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 250px;
+    margin-top: 20px;
+    padding: 10px;
+}
+#box7{
+    background-color:white ;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 10px;
+}
+#box6 a:hover{
+    color: white;
+    background-color: rgb(238, 140, 11);
+    border-radius: 5px;
+    padding: 10px;
+}
+#box7 a:hover{
+    color: white;
+    background-color: rgb(238, 140, 11);
+    border-radius: 5px;
+    padding: 10px;
+}
+#box8{
+    text-align: center;
+}
+#box9{
+    background-image: url(Drone\ for\ sale.jpg);
+    background-size: cover;
+    height: 600px;
+    width: 1000px;
+    margin-left: 250px;
+}
+#box10{
+    display: inline-block;
+    margin-left: 250px;
+    background-color: white;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#box11{
+    display: inline-block;
+    margin-left: 50px;
+    background-color: white;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#box12{
+    display: inline-block;
+    margin-left: 50px;
+    background-color: white;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#box10  a:hover{
+    color: white;
+    background-color: rgb(238, 140, 11);
+    border-radius: 5px;
+    padding: 10px;
+
+}
+#box11 a:hover{
+    color: white;
+    background-color: rgb(238, 140, 11);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#box12 a:hover{
+    color: white;
+    background-color: rgb(238, 140, 11);
+    border-radius: 5px;
+    padding: 10px;
+}
+#box13{
+    display: inline-block;
+    margin-top:40px;
+    width: 100%;
+    text-align: center;
+    text-decoration: wavy;
+}
+#box14{
+    display:inline-block;
+    margin-top: 40px;
+    background-color: brown;
+    margin-left: 250px;
+    height: 600px ;
+    background-color: white;
+    width: 300px;
+    background-image: url(rc1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(238, 245, 255, 100%);
+    margin: 0;
+    padding: 20px;
+}
+
+#contactPage {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media li {
+    margin: 10px 0;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.customer-support p {
+    margin: 10px 0;
+}
+
+.query-form {
+    margin-top: 20px;
+}
+
+.query-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.query-form input, .query-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.query-form button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.query-form button:hover {
+    background-color: #0056b3;
+}
+#page2 {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+} 
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #555;
+}
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.team-member {
+    background: #eaeaea;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: calc(33% - 20px);
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 50%;
+    height: auto;
+}
+
+.team-member:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
+} 
+/* products page  */
+
+.cart button {
+    background-color: #f39c12;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 18%;
+    transition: transform 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-image img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.product-info {
+    text-align: center;
+}
+
+.product-info h5 {
+    margin: 10px 0 5px;
+}
+
+.product-info h6 {
+    color: grey;
+}
