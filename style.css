@@ -8,10 +8,14 @@ body{
 #page1{
     height: 100%;
     width: 100%;
+    
 }
+
+
+
 #box1{
     margin-top: 30px;
-    height:30px;
+    height:100%;
     width: 100%;
 }
 #box2{
@@ -145,129 +149,114 @@ a{
     text-align: center;
     text-decoration: wavy;
 }
-#box14{
-    display:inline-block;
-    margin-top: 40px;
-    background-color: brown;
-    margin-left: 250px;
-    height: 600px ;
-    background-color: white;
+#boxflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+#boxflex img {
     width: 300px;
-    background-image: url(rc1.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 10px;
+    flex: 1;
+    margin: 40px 20px;
+
+
 }
-body {
-    font-family: Arial, sans-serif;
-    background-color: rgba(238, 245, 255, 100%);
-    margin: 0;
+#boxflex2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
+    padding-top: 0px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+#boxflex2 button{
+    width: 300px;
+    background-color: white;
+    height: 30px;
+    margin: 0px 20px;
+    border-radius: 10px;
 }
 
-#contactPage {
-    max-width: 600px;
-    margin: auto;
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+#boxflex2 button:hover{
+    background-color: rgb(238, 140, 11);
+    width: 315px;
+    /* padding: 20px; */
+    /* box-shadow: #f39c12; */
+    /* -ms-zoom-animation: unset; */
+    /* rotate: 720deg; */
+    transition-duration: 2s;
+
 }
 
-h1, h2 {
-    color: #333;
-}
-
-.social-media ul {
-    list-style: none;
-    padding: 0;
-}
-
-.social-media li {
-    margin: 10px 0;
-}
-
-.social-media a {
-    text-decoration: none;
-    color: #007bff;
-}
-
-.customer-support p {
-    margin: 10px 0;
-}
-
-.query-form {
-    margin-top: 20px;
-}
-
-.query-form label {
-    display: block;
-    margin: 10px 0 5px;
-}
-
-.query-form input, .query-form textarea {
+#box14{
+    height:400px;
     width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    background-color:rgb(229, 217, 242);
 }
-
-.query-form button {
-    margin-top: 10px;
-    padding: 10px 15px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+#box15{
+    margin-top: 50px;
+    margin-left: 50px;
+    padding-top: 50px;
+    width: 100px;
 }
-
-.query-form button:hover {
-    background-color: #0056b3;
+#box16{
+    padding-top: 50px;
+    margin-left: 200px;
 }
+.no-list-style{
+    list-style: none;
+    letter-spacing: 2px;
+}
+/* About us section css */
 #page2 {
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
-    background: white;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: rgba(238, 245, 255, 100%);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 header {
-    text-align: center;
-    margin-bottom: 20px;
+    text-align:left;
+    background-color: rgb(229, 217, 242);
 } 
-
-h1 {
-    color: #333;
+h2{
+    text-align: center;
 }
-
-h2 {
-    color: #555;
-}
-
 .team {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center; 
+    text-align: center;
+    margin: 0 auto; 
+    padding: 20px; 
 }
 
 .team-member {
     background: #eaeaea;
     border: 1px solid #ccc;
     border-radius: 5px;
-    margin: 10px;
+    margin: 10px; 
     padding: 15px;
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
-    width: calc(33% - 20px);
+    width: 300px; 
+    max-width: calc(33% - 20px); 
+    box-sizing: border-box; 
 }
 
 .team-member img {
-    width: 100%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover; 
     border-radius: 50%;
-    height: auto;
 }
-
 .team-member:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
@@ -327,4 +316,32 @@ footer {
 
 .product-info h6 {
     color: grey;
+}
+/* contact us page css */  
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+#contact {
+    text-align: center;
+    background-color: rgb(229, 217, 242);
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.card-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-body {
+    margin-bottom: 1px;
 }
