@@ -286,6 +286,7 @@ footer {
 }
 
 .product-card {
+
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -295,10 +296,13 @@ footer {
     transition: transform 0.3s;
     position: relative;
     overflow: hidden;
+    border-radius: 10px;
+    
 }
 
 .product-card:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .product-image img {
@@ -308,14 +312,22 @@ footer {
 
 .product-info {
     text-align: center;
+    font-family: Arial, sans-serif;
+    transition: 30ms;
+    background-color: hsl(0, 0%, 50%,0.5);
+    border: 2px solid hsl(0, 0%, 50%,0.75);
+    border-radius: 10px;
+    
 }
+
 
 .product-info h5 {
     margin: 10px 0 5px;
+
 }
 
 .product-info h6 {
-    color: grey;
+    color: black;
 }
 /* contact us page css */  
 .container {
