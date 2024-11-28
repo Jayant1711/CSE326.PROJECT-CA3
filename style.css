@@ -193,26 +193,28 @@ a{
     transition-duration: 2s;
 
 }
+#box14 {
+    display: flex; 
+    justify-content: space-between; 
+    background-color: rgb(229, 217, 242); 
+    height: 300px; 
+}
 
-#box14{
-    height:400px;
-    width: 100%;
-    background-color:rgb(229, 217, 242);
+#box15, #box16 {
+    flex: 1; 
+    margin: 10px; 
+    background-color:rgb(229, 217, 242); 
+    padding: 20px; 
+    box-sizing: border-box; 
 }
-#box15{
-    margin-top: 50px;
-    margin-left: 50px;
-    padding-top: 50px;
-    width: 100px;
+
+.no-list-style {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+   
 }
-#box16{
-    padding-top: 50px;
-    margin-left: 200px;
-}
-.no-list-style{
-    list-style: none;
-    letter-spacing: 2px;
-}
+
 /* About us section css */
 #page2 {
     width: 100%;
@@ -330,15 +332,35 @@ footer {
     color: black;
 }
 /* contact us page css */  
-.container {
-    display: flex;
-    gap: 20px;
-    padding: 20px;
+
+
+body {
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0; 
+    background-color: #f4f4f4; 
 }
 
 #contact {
     text-align: center;
     background-color: rgb(229, 217, 242);
+    padding: 40px 20px;
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+h1 {
+    color: rgb(238, 140, 11); 
+    margin: 0; 
+}
+
+.container {
+    display: flex; 
+    justify-content: center;
+    gap: 20px; 
+    max-width: 1200px; 
+    margin: 20px auto; 
+    flex-wrap: wrap; 
 }
 
 .card {
@@ -346,14 +368,41 @@ footer {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
+    flex: 1; 
+    min-width: 300px;
+    transition: transform 0.3s; 
+}
+
+.card:hover {
+    transform: translateY(-5px); 
 }
 
 .card-header {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 10px;
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 15px; 
+}
+
+.card-header img {
+    width: 50px; 
+    height: 50px; 
+    margin-right: 10px;
 }
 
 .card-body {
-    margin-bottom: 1px;
+    color: #333; 
+}
+
+.button {
+    background-color: rgb(238, 140, 11); 
+    color: white; 
+    padding: 10px 15px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.button:hover {
+    background-color: rgb(204, 116, 9); /* Darker shade on hover */
 }
